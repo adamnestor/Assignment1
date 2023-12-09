@@ -1,7 +1,7 @@
 body {
     background-color: #4912f6;
     font-family: sans-serif;
-    padding-left: 10px; /* I chose this so text is aligned when aligned left*/
+    padding-left: 40px; /* I chose this so text is aligned when aligned left*/
     padding-right: 10px;
     color: #ffffff;
 }
@@ -10,10 +10,11 @@ body {
    display: flex; 
    flex-direction: row; /*Is this necessary if it's default? Trevor did, but was teaching concept.*/
    align-items: center;
+   font-size: 32px;
 }
 
 .section2 {
-    padding: 100px 0px 75px 8px;
+    padding: 350px 0px 75px 8px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -21,6 +22,7 @@ body {
 }
 
 .section3 {
+    padding: 150px 0px 150px 0px;
     text-align: center;
     font-size: 18px;
 }
@@ -33,16 +35,29 @@ body {
     justify-content: center;
 }
 
-a {
+.section5 {
+    padding: 0px 0px 0px 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#signin {
     text-decoration: none;
 }
 
 .contentblock1 {
-    flex: 0 1 1000px;
+    flex: 0 1 900px;
+}
+
+#deskimage {
+    flex: 0 1 1400px;
 }
 
 .contentblock2 {
     flex: 0 1 800px;
+    margin: 0px 50px;
 }
 
 a:visited {
@@ -53,37 +68,64 @@ input[type="button"] {
     background-color: #eb983c;
     color: #ffffff;
     font-weight: bold;
+    font-size: 32px;
     border: 0px;
-    border-radius: 15px;
-    padding: 8px 12px;
+    border-radius: 50px;
+    padding: 24px 48px;
 }
 
 #text1 {
-    font-size: 18px;
+    font-size: 64px;
     margin: 0px 0px 2px 0px;
 }
 
 #text2 {
-    font-size: 24px;
+    font-size: 84px;
     font-weight: bold;
     margin: 0px;
 }
 
 #text3 {
-    font-size: 14px;
+    font-size: 42px;
+    color: #c9b8fc;
+}
+
+#featured {
+    font-size: 18px;
+    color: #c9b8fc;
 }
 
 #text4 {
-    font-size: 14px;
+    font-size: 42px;
     font-weight: bold;
 }
 
+#explore {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.topic {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.info {
+    font-size: 32px;
+}
+
+#logo {
+    width: 300px;
+}
+
 #clout {
-    margin: 0px 0px 8px 0px;
+    margin: 0px 0px 100px 0px;
     flex: 0 1 200px;
     margin-bottom: 15px;
 }
 
 #free {
-    padding: 8px 20px;
+    padding: 60px 90px;
+    margin-top: 75px;
+    border-radius: 80px;
 }
