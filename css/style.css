@@ -17,11 +17,12 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
 }
 
 .section3 {
     text-align: center;
+    font-size: 18px;
 }
 
 .section4 {
@@ -36,8 +37,12 @@ a {
     text-decoration: none;
 }
 
-.contentblock {
-    flex: 0 1 600px;
+.contentblock1 {
+    flex: 0 1 1000px;
+}
+
+.contentblock2 {
+    flex: 0 1 800px;
 }
 
 a:visited {
