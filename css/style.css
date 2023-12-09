@@ -1,8 +1,9 @@
 body {
     background-color: #4912f6;
-    font-family: 'Trebuchet MS';
+    font-family: sans-serif;
     padding-left: 10px; /* I chose this so text is aligned when aligned left*/
     padding-right: 10px;
+    color: #ffffff;
 }
 
 .section1 {
@@ -11,19 +12,73 @@ body {
    align-items: center;
 }
 
+.section2 {
+    padding: 100px 0px 75px 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.section3 {
+    text-align: center;
+}
+
+.section4 {
+    padding: 75px 0px 0px 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 a {
     text-decoration: none;
 }
 
+.contentblock {
+    flex: 0 1 600px;
+}
+
 a:visited {
-    color: white;
+    color: #ffffff;
 }
 
 input[type="button"] {
-    background-color: orange;
-    color: white;
+    background-color: #eb983c;
+    color: #ffffff;
     font-weight: bold;
     border: 0px;
     border-radius: 15px;
     padding: 8px 12px;
+}
+
+#text1 {
+    font-size: 18px;
+    margin: 0px 0px 2px 0px;
+}
+
+#text2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+#text3 {
+    font-size: 14px;
+}
+
+#text4 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#clout {
+    margin: 0px 0px 8px 0px;
+    flex: 0 1 200px;
+    margin-bottom: 15px;
+}
+
+#free {
+    padding: 8px 20px;
 }
