@@ -1,6 +1,8 @@
+/*I'm imagining this file is way too long and unorganized. I'm looking forward to the comments in my code review to improve this*/
+
 body {
     background-color: #4912f6;
-    font-family: sans-serif;
+    font-family: Roboto, sans-serif;
     padding-left: 40px; /* I chose this so text is aligned when aligned left*/
     padding-right: 10px;
     color: #ffffff;
@@ -8,7 +10,7 @@ body {
 
 .section1 {
    display: flex; 
-   flex-direction: row; /*Is this necessary if it's default? Trevor did, but was teaching concept.*/
+   flex-direction: row; /*Is this necessary if it's default? Trevor did, but he was teaching the concept.*/
    align-items: center;
    font-size: 32px;
 }
@@ -65,7 +67,7 @@ a:visited {
 }
 
 input[type="button"] {
-    background-color: #eb983c;
+    background-image: linear-gradient(to right, #ea9e3d , #ee7a38);
     color: #ffffff;
     font-weight: bold;
     font-size: 32px;
@@ -90,7 +92,7 @@ input[type="button"] {
     color: #c9b8fc;
 }
 
-#featured {
+#clouttext {
     font-size: 18px;
     color: #c9b8fc;
 }

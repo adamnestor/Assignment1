@@ -3,10 +3,14 @@
     <head>
         <title>Brain FM Clone</title>
         <link rel="stylesheet" href="./css/style.css">
+        <!--Below I have linked Google Font 'Roboto' because it's the closest replacement I could find to TTNormsPro which is the font on Brain.fm's website-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Roboto:wght@400;700&family=Space+Mono&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
     </head>
     <body>
         <!--Header with logo, sign-in, and try for free button-->
-        <div class="section1">
+        <div class="section1"><!--I believe there is a <header> tag. Is it better practice to use <div> or a more specific tag?-->
             <div style="flex-grow: 75;">
                 <img id="logo" src="./images/logo.png">
             </div>
@@ -19,20 +23,20 @@
         </div>
         <!--Section 2 with font, clout, button, and large image-->
         <div class="section2">
-            <div class="contentblock1"> <!--Section 2 text on left side of page-->
+            <div class="contentblock1"> <!--Section 2 text on left side-->
                 <p id="text1">Functional Music to Improve</p>
                 <p id="text2">Focus in 15 Minutes</p> <!--Could have made previous 2 into 1 <p> and then <span> for the bold line but wonder about spacing of being on different lines-->
                 <p id="text3">Our science-first approach creates music that sounds different and affects your brain differently than any other music.</p>
-                <p id="featured">FEATURED IN</p>
+                <p id="clouttext">FEATURED IN</p>
                 <img id="clout" src="./images/clout.png" width="80%">
                 <br/>
-                <input id="free" type="button" value="Try 5 free sessions"/>
+                <input id="free" type="button" value="Try 5 free sessions"/> <!--I read online that I could use a <button> tag and then use a line break if I wanted to have 2 lines as it is in the image.-->
             </div>
             <div id="deskimage"> <!--Section 2 large image on right side-->
                 <img src="./images/picture-1.gif" width="100%">
             </div>
         </div>
-        <!--Section 3 just a little text that separates sets on content blocks-->
+        <!--Section 3 just short text that separates sets of content blocks-->
         <div class="section3">
             <p id="text4">Wanna see the science?</p>
         </div>
@@ -45,7 +49,7 @@
                 <img src="./images/picture-3.png" width="100%">
             </div>
         </div>
-        <!--Section 5 with 2 content blocks, separated from above pictures so that the top is even-->
+        <!--Section 5 with 2 content blocks, separated from above pictures so that the top text is even-->
         <div class="section5">
             <div class="contentblock2"> <!--Left side-->
                 <p class="topic">Patented Technology</p>
